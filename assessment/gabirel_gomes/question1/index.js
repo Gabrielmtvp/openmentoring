@@ -14,6 +14,10 @@ let mergeTwoLists = function (list1, list2) {
   console.log('*******************************')
   console.log("list1", list1);
   console.log("list2", list2);
+
+  const newList = list1.concat(list2).sort();
+  console.log(newList);
+  
 };
 
 
